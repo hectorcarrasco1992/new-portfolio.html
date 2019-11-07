@@ -22,11 +22,17 @@ body{
 
 #skills{
     display: flex;
-    width: 100%;
+    width: 20%%;
+    justify-content: center;
 
 }
 
 #bullets{
+    display: flex;
+    flex-direction: column;
+}
+
+#links{
     display: flex;
     flex-direction: column;
 }
