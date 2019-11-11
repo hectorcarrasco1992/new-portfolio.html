@@ -112,6 +112,7 @@ body{
         padding: 0%;
         background-color: lightcyan;
         background-image: none;
+        justify-content: center;
     }
 
     #title{
