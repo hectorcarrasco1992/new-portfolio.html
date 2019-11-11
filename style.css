@@ -18,6 +18,8 @@ body{
 #descrip{
     display: flex;
     justify-content: center;
+    border: 1px solid rgb(231, 35, 0);
+    border-style: groove;
 }
 
 #skills{
@@ -30,9 +32,58 @@ body{
 #bullets{
     display: flex;
     flex-direction: column;
+    width: 50%;
+    border: 1px groove black;
 }
 
 #links{
     display: flex;
     flex-direction: column;
+    width: 50%;
+    border: 1px black groove;
+}
+
+#link-bullets{
+    display: flex;
+    flex-direction: column;
+}
+
+#mark-down-row{
+    display: flex;
+}
+
+#mark-pic{
+    width: 60px;
+}
+
+#javascript-row{
+    display: flex;
+}
+
+#javascript-gif{
+    width: 60px;
+}
+
+#css-row{
+    display: flex;
+}
+
+#css-gif{
+    width: 60px;
+}
+
+#dom-row{
+    display: flex;
+}
+
+#dom-gif{
+    width: 60px;
+}
+
+#thinking-row{
+    display: flex;
+}
+
+#thinking-gif{
+    width: 60px;
 }
